@@ -4,13 +4,15 @@
 import unittest
 from selenium import webdriver
 
+WORK_DIR = r'D:\Python Projects\Auto_test_1\'
+
 # №1
 # Make screenshot in search 'test'
 class InputFormsCheck(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     # Testing Single Input Field.
     def test_singleInputField(self):
@@ -40,7 +42,7 @@ class ClickHomeBTN(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickHomeBTN(self):
         pageUrl = "http://mail.ru"
@@ -62,7 +64,7 @@ class ClickCOVID(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickCOVID(self):
         pageUrl = "http://mail.ru"
@@ -84,7 +86,7 @@ class ClickCLOUD(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickCLOUD(self):
         pageUrl = "http://mail.ru"
@@ -105,7 +107,7 @@ class ClickTV(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickTV(self):
         pageUrl = "http://mail.ru"
@@ -126,7 +128,7 @@ class ClickDELIVERY(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickDELIVERY(self):
         pageUrl = "http://mail.ru"
@@ -147,7 +149,7 @@ class ClickISQ(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickISQ(self):
         pageUrl = "http://mail.ru"
@@ -168,7 +170,7 @@ class ClickRegistration(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickRegistration(self):
         pageUrl = "http://mail.ru"
@@ -189,7 +191,7 @@ class ClickLogIN(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickLogIN(self):
         pageUrl = "http://mail.ru"
@@ -216,7 +218,7 @@ class ClickNews(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickNews(self):
         pageUrl = "http://mail.ru"
@@ -237,7 +239,7 @@ class ClickMoscow(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickMoscow(self):
         pageUrl = "http://mail.ru"
@@ -258,7 +260,7 @@ class ClickAboutCompany(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickAboutCompany(self):
         pageUrl = "http://mail.ru"
@@ -279,7 +281,7 @@ class ClickHelp(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickHelp(self):
         pageUrl = "http://mail.ru"
@@ -300,7 +302,7 @@ class ClickMyWorld(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickMyWorld(self):
         pageUrl = "http://mail.ru"
@@ -321,7 +323,7 @@ class ClickAuto(unittest.TestCase):
 
     # Opening browser.
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Python Projects\Auto_test_1\chromedriver.exe')
+        self.driver = webdriver.Chrome(WORK_DIR + 'chromedriver.exe')
 
     def test_ClickAuto(self):
         pageUrl = "http://mail.ru"
